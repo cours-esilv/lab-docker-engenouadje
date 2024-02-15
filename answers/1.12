@@ -1,1 +1,1 @@
-docker run -d -p 80:80 -e WS_BACK_URL="http://backend:5000" --name my-container enge02/mlops:serv
+docker run -d -p 80:80 -e WS_BACK_URL="http://localhost:5000" --name my-container enge02/mlops:serv
